@@ -59,12 +59,12 @@ main {
   padding: 0px;
   width: 55px;
   height: 55px;
-  border-radius: 30px;
+  border-radius: 50px;
   display: flex;
   align-content: center;
   background: #00ebc7;
   transition: all 0.25s;
-  animation: open 3s ease;
+  animation: open 0.5s ease;
 }
 
 .content-1-img {
@@ -113,7 +113,7 @@ main {
 
 
 .content-1>.content-1-a {
-  animation: muncul 3s ease;
+  animation: muncul 0.5s ease;
   display: block;
   opacity: 1;
   
@@ -144,12 +144,12 @@ main {
   padding: 0px;
   width: 55px;
   height: 55px;
-  border-radius: 30px;
+  border-radius: 50px;
   display: flex;
   align-content: center;
   background: #00ebc7;
   transition: all 0.25s;
-  animation: open-2 3.5s ease;
+  animation: open-2 1s ease;
 }
 
 .content-2-img {
@@ -202,7 +202,7 @@ main {
 
 
 .content-2>.content-2-a {
-  animation: muncul-2 3.5s ease ;
+  animation: muncul-2 1s ease ;
   display: block;
   opacity: 1;
   
@@ -232,12 +232,12 @@ main {
   padding: 0px;
   width: 55px;
   height: 55px;
-  border-radius: 30px;
+  border-radius: 50px;
   display: flex;
   align-content: center;
   background: #00ebc7;
   transition: all 0.25s;
-  animation: open-3 4s ease;
+  animation: open-3 1.5s ease;
 }
 
 .content-3-img {
@@ -288,7 +288,7 @@ font-weight: bold;
 } 
 
 .content-3>.content-3-a {
-  animation: muncul-3 4s ease ;
+  animation: muncul-3 1.5s ease ;
   display: block;
   opacity: 1;
   
