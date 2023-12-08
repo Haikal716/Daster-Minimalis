@@ -1,0 +1,477 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #b4e9df;
+}
+
+/* header awal */
+
+header {
+  height: 40vh;
+}
+
+.profil {
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profil-img {
+  
+  border-radius: 50%;
+  width: 125px; height: 125px;
+}
+
+h1 {
+  white-space: nowrap;
+  font-size: 18pt;
+  color: #2b2c34;
+  font-family: arial;
+}
+
+p {
+white-space: nowrap;
+  font-size: 12pt;
+  color: #2b2c34;
+  position: relative;
+  bottom: 10px;
+  font-family: Arial,Sans-Serif;
+}
+
+/* header akhir */
+
+/* main awal */
+
+main {
+  height: 55vh;
+}
+
+.content-menu {
+  position: relative;
+  bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  gap: 2vh;
+}
+
+/* content-1 awal */
+  
+.content-1 {
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-content: center;
+  background: #0E5C1D;
+  transition: all 0.25s;
+  animation: open 0.25s ease;
+}
+
+.content-1:active {
+  background: #1a9641;
+  transform: scale(1.1);
+}
+
+.content-1-img {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.content-1-a {
+  font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  right: 1em;
+  display: none;
+  opacity: 0;
+  background: transparent;
+  text-align: center;
+  padding: 1em;
+  color: #fffffe;
+  width: 14em;
+  text-decoration: none;
+}
+
+.content-1 {
+  width: 17em;
+  padding: 6px;
+}
+
+@keyframes open {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  
+  }
+  
+  50% {
+    opacity: 1;
+    padding: 6px;
+  }
+  
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+    padding: 6px;
+    width: 17em;
+  }
+    }
+
+
+.content-1>.content-1-a {
+  animation: muncul 0.25s ease;
+  display: block;
+  opacity: 1;
+}
+
+@keyframes muncul {
+  
+  0% {
+    opacity: 0;
+  }
+  
+  50% {
+    
+    opacity: 0;
+  }
+  
+  75% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+  
+}
+/* content-1 akhir */
+
+/* content-2 awal */
+
+.content-2 {
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-content: center;
+  background:  #E1391B;
+  transition: all 0.25s;
+  animation: open-2 0.5s ease;
+}
+
+.content-2:active {
+  background: #d73027;
+  transform: scale(1.1);
+}
+
+.content-2-img {
+  
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.content-2-a {
+  font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  right: 1em;
+  display: none;
+  opacity: 0;
+  background: transparent;
+  text-align: center;
+  padding: 1em;
+  color: #fffffe;
+  width: 14em;
+  text-decoration: none;
+}
+
+.content-2 {
+  width: 17em;
+  padding: 6px;
+}
+
+ @keyframes open-2 {
+  0% {
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  }
+  25% {
+    transform: translateY(-20px);
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  }
+  
+  62.5% {
+    opacity: 1;
+    padding: 6px;
+  }
+    
+  125% {
+    transform: translateY(0px);
+    opacity: 1;
+    padding: 6px;
+    width: 17em;
+  }
+  }
+  
+
+
+.content-2>.content-2-a {
+  animation: muncul-2 0.5s ease ;
+  display: block;
+  opacity: 1;
+  
+  
+}
+
+ @keyframes muncul-2 {
+  
+  0% {
+    opacity: 0;
+  }
+  
+  62.5% {
+    
+    opacity: 0;
+  }
+  
+  93.75% {
+    opacity: 1;
+  }
+  
+  125% {
+    opacity: 1;
+  }
+  
+} 
+/* content-2 akhir */
+/* content-3 awal */
+
+.content-3 {
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-content: center;
+  background: #0D1274;
+  transition: all 0.25s;
+  animation: open-3 0.75s ease;
+}
+
+.content-3:active {
+  background: #023fa5;
+  transform: scale(1.1);
+}
+
+.content-3-img {
+  
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.content-3-a {
+font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  right: 1em;
+  display: none;
+  opacity: 0;
+  background: transparent;
+  text-align: center;
+  padding: 1em;
+  color: #fffffe;
+  width: 14em;
+  text-decoration: none;
+}
+
+.content-3 {
+  width: 17em;
+  padding: 6px;
+}
+
+ @keyframes open-3 {
+  0% {
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  }
+  
+  34% {
+    transform: translateY(-20px);
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  }
+  
+  67% {
+    opacity: 1;
+    padding: 6px;
+  }
+  134% {
+    transform: translateY(0px);
+    opacity: 1;
+    padding: 6px;
+    width: 17em;
+  }
+} 
+
+.content-3>.content-3-a {
+  animation: muncul-3 0.75s ease ;
+  display: block;
+  opacity: 1;
+  
+  
+}
+
+ @keyframes muncul-3 {
+  
+  0% {
+    opacity: 0;
+  }
+  
+  67% {
+    
+    opacity: 0;
+  }
+  
+  100.5% {
+    opacity: 1;
+  }
+  
+  134% {
+    opacity: 1;
+  }
+  
+} 
+/* content-3 akhir */
+/* content-4 awal */
+
+.content-4 {
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-content: center;
+  background: #000000f0;
+  transition: all 0.25s;
+  animation: open-4 1s ease;
+}
+
+.content-4:active {
+  background: #fdae61;
+  transform: scale(1.1);
+}
+
+.content-4-img {
+  
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.content-4-a {
+font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  right: 1em;
+  display: none;
+  opacity: 0;
+  background: transparent;
+  text-align: center;
+  padding: 1em;
+  color: #fffffe;
+  width: 14em;
+  text-decoration: none;
+}
+
+.content-4 {
+  width: 17em;
+  padding: 6px;
+}
+
+ @keyframes open-4 {
+  0% {
+    
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  }
+  
+  38% {
+    transform: translateY(-20px);
+    opacity: 0;
+    padding: 0;
+    width: 50px;
+  }
+  
+  88% {
+    opacity: 1;
+    padding: 6px;
+  }
+  175% {
+    transform: translateY(0px);
+    opacity: 1;
+    padding: 6px;
+    width: 17em;
+  }
+} 
+
+.content-4>.content-4-a {
+  animation: muncul-4 1s ease ;
+  display: block;
+  opacity: 1;
+  
+  
+}
+
+ @keyframes muncul-4 {
+  
+  0% {
+    opacity: 0;
+  }
+  
+  87.5% {
+    
+    opacity: 0;
+  }
+  
+  131.25% {
+    opacity: 1;
+  }
+  
+  175% {
+    opacity: 1;
+  }
+  
+} 
+/* content-4 akhir */
+/* main akhir */
